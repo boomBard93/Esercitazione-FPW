@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 25, 2019, 9:36:38 AM
+    Author     : eddi
+*/
+
+*{
+    box-sizing: border-box;
+    border-color: steelblue;
+}
+
+body{
+    /*font-size: 14px;*/
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+    background: #333333;
+}
+
+h1, h2, h3{
+    color: #35E0B1;
+}
+
+input{
+    background: teal;
+    color: white;
+}
+
+input:focus{
+    color: whitesmoke;
+    background: salmon;
+   
+}
+
+a:visited{
+    color: red;
+}
+
+a:link{
+    color: purple;
+}
+
+a:active{
+    color: white;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+#logodiv{
+    position: relative;
+    height: 150px;
+}
+
+#logoTitle{
+    position: absolute;
+    display: inline;
+}
+
+.logoimg{
+    height:100%;
+}
+
+/*LAYOUT//////////////////////////////////////////////////////////////*/
+
+
+/*id 
+#logo{
+    background-color: #1c345a;
+}
+
+header, footer{
+    color: darkred;
+}
+
+/*classe
+.importante{
+    font-weight: bold;
+}
+
+div#content > h2{
+    color: #9e1616;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: green;
+}
+
+a {
+    color: #9e1616;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a[href="index.html"]{
+    color: #1c345a;
+}*/
+
